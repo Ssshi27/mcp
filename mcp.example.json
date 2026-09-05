@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "network-terminal": {
+      "command": "<PATH_TO_PYTHON>",
+      "args": [
+        "<PATH_TO_NETWORK_TERMINAL_MCP>/network_terminal_mcp/server.py"
+      ],
+      "disabled": false,
+      "env": {
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "autoApprove": []
+    }
+  }
+}
